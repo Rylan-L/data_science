@@ -26,7 +26,7 @@ In this second part, I added classifiers to the the Secom dataset.
 
 Neural networks can be used for text prediction and natural language processing. Keras includes a dataset of 11,228 newswires from Reuters, with labeled over 46 topics. Predicting the topic depends not just on the the previous words, but the sequence in which they are presented. Therefore they are an ideal test case for LSTM neural networks which take sequences as inputs. 
 
-## Classification with other machine learning approaches 
+# Classification with other machine learning approaches 
 
 ### Predicting breast cancer using decision trees
 
