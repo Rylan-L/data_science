@@ -9,14 +9,14 @@ One useful data science approach in manufacturing is to make predictions about t
 * Small Dataset: there are only 1567 examples in this dataset, giving us few examples to optimize our machine learning training sets on.
 
 ### Part 1: Data cleaning, dealing with class imbalance and feature selection. Manufacturing pass/fail classification with SVM, decision trees, and random forests.
-[Github](https://github.com/Rylan-L/data_science/blob/master/machine_learning/decision_trees_cancer.ipynb) [NBViewer](https://nbviewer.jupyter.org/github/Rylan-L/data_science/blob/master/machine_learning/decision_trees_cancer.ipynb)
+[Github](https://github.com/Rylan-L/data_science/blob/master/machine_learning/neural_networks/DataSci_example_Secom_pt1.ipynb) [NBViewer](https://nbviewer.jupyter.org/github/Rylan-L/data_science/blob/master/machine_learning/neural_networks/DataSci_example_Secom_pt1.ipynb)
 
 In the first notebook, I deal with missing data, perform feature selection using three methods (a wrapper, filter, and Lasso/L1 embedded approach), and deal with class imbalance using Synthetic Minority Over-sampling Technique (SMOTE). Then SVM, decision trees, and random forests classifiers were used for manufacturing classification
 
 ### Part 2: Using Neural Networks for classification 
-[Github](https://github.com/Rylan-L/data_science/blob/master/machine_learning/decision_trees_cancer.ipynb) [NBViewer](https://nbviewer.jupyter.org/github/Rylan-L/data_science/blob/master/machine_learning/decision_trees_cancer.ipynb)
+[Github](https://github.com/Rylan-L/data_science/blob/master/machine_learning/neural_networks/DataSci_example_Secom_pt2.ipynb) [NBViewer](https://nbviewer.jupyter.org/github/Rylan-L/data_science/blob/master/machine_learning/neural_networks/DataSci_example_Secom_pt2.ipynb)
 
-In this second part, I added classifiers to the the Secom dataset. 
+As a follow-up to using non-neural network classifiers, I tested three neural network models classifiers (simple neural network, deep neural network, LSTM neural network) on the Secom dataset. The goal here was to make a classifier which predicted the class (pass/fail) for the manufacturing product. 
 
 ### Part 2: SVM, decision trees, and random forests for manufacturing classification
 
@@ -25,6 +25,8 @@ In this second part, I added classifiers to the the Secom dataset.
 ## Text Analytics using LSTM neural networks
 
 Neural networks can be used for text prediction and natural language processing. Keras includes a dataset of 11,228 newswires from Reuters, with labeled over 46 topics. Predicting the topic depends not just on the the previous words, but the sequence in which they are presented. Therefore they are an ideal test case for LSTM neural networks which take sequences as inputs. 
+
+
 
 # Classification with other machine learning approaches 
 
