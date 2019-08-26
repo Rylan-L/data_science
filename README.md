@@ -1,7 +1,8 @@
-# Data Science Examples and Notebooks by Rylan Larsen
+# Data Science Examples and Notebooks by Rylan Larsen, PhD
 ---
 This is a compilation of notebooks which I created for data analysis or for exploration of machine learning algorithms. This includes everything from data visualization and wrangling, feature selection, to classifiers, and neural networks.
-
+<br/>
+<br/>
 ## In depth examples
 ---
 ## Can you predict the weather?
@@ -9,12 +10,11 @@ This is a compilation of notebooks which I created for data analysis or for expl
 
 Given historical weather data, can I predict whether tomorrow will be rainy in New York? In this example, I use historical weather data from NY to ask, given previous days, can I predict whether any next day (tomorrow) be rainy? In this example, I largely use LSTM neural networks and Keras/Tensorflow to address this.
 
-Note: This a coding test that is (was?) used at Apple for machine learning scientist positions. This is my *passing* example of the coding test.
 
 Datasource: Kaggle, SelfishGene, https://www.kaggle.com/selfishgene/historical-hourly-weather-data
 <br/>
 <br/>
-## Data cleaning, feature selection, and machine learning on semiconductor manufacturing sensor data
+## Semiconductor manufacturing sensors: Data cleaning, feature selection, and machine learning on 
 
 One useful data science approach in manufacturing is to make predictions about the pass/fail or quality of a product given sensor readouts from the manufacturing line. The SECOM dataset has a large number of such sensor readings and pass/fail labels for Semiconductor manufacturing. However, the data set suffers from some common problems
 
@@ -27,7 +27,7 @@ One useful data science approach in manufacturing is to make predictions about t
 
 In the first notebook, I deal with missing data, perform feature selection using three methods (a wrapper, filter, and Lasso/L1 embedded approach), and deal with class imbalance using Synthetic Minority Over-sampling Technique (SMOTE). Then SVM, decision trees, and random forests classifiers were used for manufacturing classification
 
-### Part 2: Using Neural Networks for classification 
+### Part 2: Using Neural Networks for classification of failing products 
 [Github](https://github.com/Rylan-L/data_science/blob/master/machine_learning/neural_networks/DataSci_example_Secom_pt2.ipynb) [NBViewer](https://nbviewer.jupyter.org/github/Rylan-L/data_science/blob/master/machine_learning/neural_networks/DataSci_example_Secom_pt2.ipynb)
 
 As a follow-up to using non-neural network classifiers, I tested three neural network models classifiers (simple neural network, deep neural network, LSTM neural network) on the Secom dataset. The goal here was to make a classifier which predicted the class (pass/fail) for the manufacturing product. 
