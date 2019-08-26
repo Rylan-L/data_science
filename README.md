@@ -1,15 +1,19 @@
 # Data Science Examples and Notebooks by Rylan Larsen
+---
+
 
 # In depth examples
-
+---
 ## Can you predict the weather?
-[Github](https://github.com/Rylan-L/data_science/blob/master/machine_learning/neural_networks/DataSci_example_Secom_pt1.ipynb) [NBViewer](https://nbviewer.jupyter.org/github/Rylan-L/data_science/blob/master/machine_learning/neural_networks/DataSci_example_Secom_pt1.ipynb)
+[Github](https://github.com/Rylan-L/data_science/blob/master/machine_learning/neural_networks/7202019_Rain_in_NY_Model.ipynb) [NBViewer](https://nbviewer.jupyter.org/github/Rylan-L/data_science/blob/master/machine_learning/neural_networks/7202019_Rain_in_NY_Model.ipynb)
 
-Given historical weather data, can I predict whether tomorrow will be rainy in New York? In this example, I use historical weather data from NY to ask, given previous days, can I predict whether any next day (tomorrow) be rainy? In this example, I largely use LSTM neural networks to address this.
+Given historical weather data, can I predict whether tomorrow will be rainy in New York? In this example, I use historical weather data from NY to ask, given previous days, can I predict whether any next day (tomorrow) be rainy? In this example, I largely use LSTM neural networks and Keras/Tensorflow to address this.
 
-Note: This a coding test that was used at Apple for machine learning scientist positions. This is my *passing* example of the coding test.
+Note: This a coding test that is (was?) used at Apple for machine learning scientist positions. This is my *passing* example of the coding test.
 
+Datasource: Kaggle, SelfishGene, https://www.kaggle.com/selfishgene/historical-hourly-weather-data
 
+<br/>
 
 ## Data cleaning, feature selection, and machine learning on semiconductor manufacturing sensor data
 
@@ -18,6 +22,7 @@ One useful data science approach in manufacturing is to make predictions about t
 * Feature selection: the data has large feature space (591), of which many sensor readings (features) are not actually useful in predicting the pass/fail of a product
 * Class imbalance: the data has a large number of positive (pass) examples, but few fail examples to train a classifier on. Therefore most classifiers do much better on the positive (pass) cases than on the failures. Arguably the failure  cases are more important to the Semiconductor company, and a model must be sensitive to these.
 * Small Dataset: there are only 1567 examples in this dataset, giving us few examples to optimize our machine learning training sets on.
+<br/>
 
 ### Part 1: Data cleaning, dealing with class imbalance and feature selection. Manufacturing pass/fail classification with SVM, decision trees, and random forests.
 [Github](https://github.com/Rylan-L/data_science/blob/master/machine_learning/neural_networks/DataSci_example_Secom_pt1.ipynb) [NBViewer](https://nbviewer.jupyter.org/github/Rylan-L/data_science/blob/master/machine_learning/neural_networks/DataSci_example_Secom_pt1.ipynb)
@@ -30,13 +35,13 @@ In the first notebook, I deal with missing data, perform feature selection using
 As a follow-up to using non-neural network classifiers, I tested three neural network models classifiers (simple neural network, deep neural network, LSTM neural network) on the Secom dataset. The goal here was to make a classifier which predicted the class (pass/fail) for the manufacturing product. 
 
 # Classification with Neural Networks
-
+---
 ## Text Analytics using LSTM neural networks
 
 Neural networks can be used for text prediction and natural language processing. Keras includes a dataset of 11,228 newswires from Reuters, with labeled over 46 topics. Predicting the topic depends not just on the the previous words, but the sequence in which they are presented. Therefore they are an ideal test case for LSTM neural networks which take sequences as inputs. 
 
 # Classification with other machine learning approaches 
-
+---
 ### Predicting breast cancer using decision trees
 
 [Colloboratory](https://colab.research.google.com/drive/1hL9ZE3pvvJgmg3eXi1x97xij4SIam9eh) [Github](https://github.com/Rylan-L/data_science/blob/master/machine_learning/decision_trees_cancer.ipynb) [NBViewer](https://nbviewer.jupyter.org/github/Rylan-L/data_science/blob/master/machine_learning/decision_trees_cancer.ipynb)
