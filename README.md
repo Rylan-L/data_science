@@ -2,7 +2,7 @@
 ---
 
 
-# In depth examples
+## In depth examples
 ---
 ## Can you predict the weather?
 [Github](https://github.com/Rylan-L/data_science/blob/master/machine_learning/neural_networks/7202019_Rain_in_NY_Model.ipynb) [NBViewer](https://nbviewer.jupyter.org/github/Rylan-L/data_science/blob/master/machine_learning/neural_networks/7202019_Rain_in_NY_Model.ipynb)
@@ -13,7 +13,7 @@ Note: This a coding test that is (was?) used at Apple for machine learning scien
 
 Datasource: Kaggle, SelfishGene, https://www.kaggle.com/selfishgene/historical-hourly-weather-data
 <br/>
-
+<br/>
 ## Data cleaning, feature selection, and machine learning on semiconductor manufacturing sensor data
 
 One useful data science approach in manufacturing is to make predictions about the pass/fail or quality of a product given sensor readouts from the manufacturing line. The SECOM dataset has a large number of such sensor readings and pass/fail labels for Semiconductor manufacturing. However, the data set suffers from some common problems
@@ -21,7 +21,6 @@ One useful data science approach in manufacturing is to make predictions about t
 * Feature selection: the data has large feature space (591), of which many sensor readings (features) are not actually useful in predicting the pass/fail of a product
 * Class imbalance: the data has a large number of positive (pass) examples, but few fail examples to train a classifier on. Therefore most classifiers do much better on the positive (pass) cases than on the failures. Arguably the failure  cases are more important to the Semiconductor company, and a model must be sensitive to these.
 * Small Dataset: there are only 1567 examples in this dataset, giving us few examples to optimize our machine learning training sets on.
-<br/>
 
 ### Part 1: Data cleaning, dealing with class imbalance and feature selection. Manufacturing pass/fail classification with SVM, decision trees, and random forests.
 [Github](https://github.com/Rylan-L/data_science/blob/master/machine_learning/neural_networks/DataSci_example_Secom_pt1.ipynb) [NBViewer](https://nbviewer.jupyter.org/github/Rylan-L/data_science/blob/master/machine_learning/neural_networks/DataSci_example_Secom_pt1.ipynb)
@@ -32,15 +31,15 @@ In the first notebook, I deal with missing data, perform feature selection using
 [Github](https://github.com/Rylan-L/data_science/blob/master/machine_learning/neural_networks/DataSci_example_Secom_pt2.ipynb) [NBViewer](https://nbviewer.jupyter.org/github/Rylan-L/data_science/blob/master/machine_learning/neural_networks/DataSci_example_Secom_pt2.ipynb)
 
 As a follow-up to using non-neural network classifiers, I tested three neural network models classifiers (simple neural network, deep neural network, LSTM neural network) on the Secom dataset. The goal here was to make a classifier which predicted the class (pass/fail) for the manufacturing product. 
-
-# Classification with Neural Networks
+<br/>
+## Classification with Neural Networks
 ---
 ## Text Analytics using LSTM neural networks
 [Github](https://github.com/Rylan-L/data_science/blob/master/machine_learning/neural_networks/MultiClass_Text_prediction_LSTM_NN.ipynb) [NBViewer](https://nbviewer.jupyter.org/github/Rylan-L/data_science/blob/master/machine_learning/neural_networks/MultiClass_Text_prediction_LSTM_NN.ipynb)
 
 Neural networks can be used for text prediction and natural language processing. Keras includes a dataset of 11,228 newswires from Reuters, with labeled over 46 topics. Predicting the topic depends not just on the the previous words, but the sequence in which they are presented. Therefore they are an ideal test case for LSTM neural networks which take sequences as inputs. 
 <br/>
-# Classification with other machine learning approaches 
+## Classification with other machine learning approaches 
 ---
 ### Predicting breast cancer using decision trees
 
