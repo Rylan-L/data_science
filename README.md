@@ -12,7 +12,6 @@ Given historical weather data, can I predict whether tomorrow will be rainy in N
 Note: This a coding test that is (was?) used at Apple for machine learning scientist positions. This is my *passing* example of the coding test.
 
 Datasource: Kaggle, SelfishGene, https://www.kaggle.com/selfishgene/historical-hourly-weather-data
-
 <br/>
 
 ## Data cleaning, feature selection, and machine learning on semiconductor manufacturing sensor data
@@ -37,9 +36,10 @@ As a follow-up to using non-neural network classifiers, I tested three neural ne
 # Classification with Neural Networks
 ---
 ## Text Analytics using LSTM neural networks
+[Github](https://github.com/Rylan-L/data_science/blob/master/machine_learning/neural_networks/MultiClass_Text_prediction_LSTM_NN.ipynb) [NBViewer](https://nbviewer.jupyter.org/github/Rylan-L/data_science/blob/master/machine_learning/neural_networks/MultiClass_Text_prediction_LSTM_NN.ipynb)
 
 Neural networks can be used for text prediction and natural language processing. Keras includes a dataset of 11,228 newswires from Reuters, with labeled over 46 topics. Predicting the topic depends not just on the the previous words, but the sequence in which they are presented. Therefore they are an ideal test case for LSTM neural networks which take sequences as inputs. 
-
+<br/>
 # Classification with other machine learning approaches 
 ---
 ### Predicting breast cancer using decision trees
