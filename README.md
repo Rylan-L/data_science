@@ -1,6 +1,17 @@
 # Data Science Examples and Notebooks by Rylan Larsen
 
-## A complete data science example: data cleaning, feature selection, and machine learning on semiconductor manufacturing sensor data
+# In depth examples
+
+## Can you predict the weather?
+[Github](https://github.com/Rylan-L/data_science/blob/master/machine_learning/neural_networks/DataSci_example_Secom_pt1.ipynb) [NBViewer](https://nbviewer.jupyter.org/github/Rylan-L/data_science/blob/master/machine_learning/neural_networks/DataSci_example_Secom_pt1.ipynb)
+
+Given historical weather data, can I predict whether tomorrow will be rainy in New York? In this example, I use historical weather data from NY to ask, given previous days, can I predict whether any next day (tomorrow) be rainy? In this example, I largely use LSTM neural networks to address this.
+
+Note: This a coding test that was used at Apple for machine learning scientist positions. This is my *passing* example of the coding test.
+
+
+
+## Data cleaning, feature selection, and machine learning on semiconductor manufacturing sensor data
 
 One useful data science approach in manufacturing is to make predictions about the pass/fail or quality of a product given sensor readouts from the manufacturing line. The SECOM dataset has a large number of such sensor readings and pass/fail labels for Semiconductor manufacturing. However, the data set suffers from some common problems
 
@@ -18,15 +29,11 @@ In the first notebook, I deal with missing data, perform feature selection using
 
 As a follow-up to using non-neural network classifiers, I tested three neural network models classifiers (simple neural network, deep neural network, LSTM neural network) on the Secom dataset. The goal here was to make a classifier which predicted the class (pass/fail) for the manufacturing product. 
 
-### Part 2: SVM, decision trees, and random forests for manufacturing classification
-
-## Classification with Neural Networks
+# Classification with Neural Networks
 
 ## Text Analytics using LSTM neural networks
 
 Neural networks can be used for text prediction and natural language processing. Keras includes a dataset of 11,228 newswires from Reuters, with labeled over 46 topics. Predicting the topic depends not just on the the previous words, but the sequence in which they are presented. Therefore they are an ideal test case for LSTM neural networks which take sequences as inputs. 
-
-
 
 # Classification with other machine learning approaches 
 
