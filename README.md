@@ -1,6 +1,6 @@
 # Data Science Examples and Notebooks by Rylan Larsen
 ---
-
+This is a compilation of notebooks which I created for data analysis or for exploration of machine learning algorithms. This includes everything from data visualization and wrangling, feature selection, to classifiers, and neural networks.
 
 ## In depth examples
 ---
@@ -32,12 +32,14 @@ In the first notebook, I deal with missing data, perform feature selection using
 
 As a follow-up to using non-neural network classifiers, I tested three neural network models classifiers (simple neural network, deep neural network, LSTM neural network) on the Secom dataset. The goal here was to make a classifier which predicted the class (pass/fail) for the manufacturing product. 
 <br/>
+<br/>
 ## Classification with Neural Networks
 ---
-## Text Analytics using LSTM neural networks
+### Text Analytics using LSTM neural networks
 [Github](https://github.com/Rylan-L/data_science/blob/master/machine_learning/neural_networks/MultiClass_Text_prediction_LSTM_NN.ipynb) [NBViewer](https://nbviewer.jupyter.org/github/Rylan-L/data_science/blob/master/machine_learning/neural_networks/MultiClass_Text_prediction_LSTM_NN.ipynb)
 
 Neural networks can be used for text prediction and natural language processing. Keras includes a dataset of 11,228 newswires from Reuters, with labeled over 46 topics. Predicting the topic depends not just on the the previous words, but the sequence in which they are presented. Therefore they are an ideal test case for LSTM neural networks which take sequences as inputs. 
+<br/>
 <br/>
 ## Classification with other machine learning approaches 
 ---
