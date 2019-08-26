@@ -1,9 +1,9 @@
-# Data Science Examples and Notebooks by Rylan Larsen, PhD
+# Data Science Examples and Notebooks by Rylan Larsen
 ---
 This is a compilation of notebooks which I created for data analysis or for exploration of machine learning algorithms. This includes everything from data visualization and wrangling, feature selection, to classifiers, and neural networks.
 <br/>
 <br/>
-## In depth examples
+## In-depth examples
 ---
 ## Can you predict the weather?
 [Github](https://github.com/Rylan-L/data_science/blob/master/machine_learning/neural_networks/7202019_Rain_in_NY_Model.ipynb) [NBViewer](https://nbviewer.jupyter.org/github/Rylan-L/data_science/blob/master/machine_learning/neural_networks/7202019_Rain_in_NY_Model.ipynb)
